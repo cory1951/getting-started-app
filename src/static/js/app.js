@@ -139,7 +139,7 @@ function ItemDisplay({ item, onItemUpdate, onItemRemoval }) {
     return (
         <Container fluid className={`item ${item.completed && 'completed'}`}>
             <Row>
-                <Col xs={1} className="text-center">
+                <Col xs={5} className="text-center">
                     <Button
                         className="toggles"
                         size="sm"
